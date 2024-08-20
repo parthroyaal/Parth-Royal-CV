@@ -4,47 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parth Royal - Node.js Backend Developer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Parth Royal</h1>
-    <p><strong>Node.js Backend Developer</strong></p>
+<body class="font-sans text-gray-800 p-6">
+    <h1 class="text-3xl font-bold text-gray-900 mb-4">Parth Royal</h1>
+    <p class="text-lg font-semibold">Node.js Backend Developer</p>
 
-    <div class="section">
-        <p><strong>Contact:</strong> <a href="mailto:parthroyaal@gmail.com">parthroyaal@gmail.com</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/parthroyaal" target="_blank">github.com/parthroyaal</a></p>
+    <div class="section my-6">
+        <p><strong>Contact:</strong> <a href="mailto:parthroyaal@gmail.com" class="text-blue-500 hover:underline">parthroyaal@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/parthroyaal" target="_blank" class="text-blue-500 hover:underline">github.com/parthroyaal</a></p>
     </div>
 
-    <div class="section">
-        <h2>Education</h2>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-indigo-600 border-b-2 border-gray-200 pb-2 mb-4">Education</h2>
         <p><strong>Alakh Prakash Goyal Shimla University</strong></p>
         <p><strong>Master of Computer Applications (MCA)</strong><br>
            2019-2022<br>
@@ -54,73 +26,85 @@
            7.80 CGPA</p>
     </div>
 
-    <div class="section">
-        <h2>Skills</h2>
-        <p><strong>Frontend</strong></p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript (Client-side)</li>
-        </ul>
-        <p><strong>Backend</strong></p>
-        <ul>
-            <li>Node.js (ES6/CommonJS Server-side)</li>
-        </ul>
-        <p><strong>Databases</strong></p>
-        <ul>
-            <li>Relational Databases: PostgreSQL</li>
-            <li>NoSQL Databases: MongoDB</li>
-        </ul>
-        <p><strong>ORM</strong></p>
-        <ul>
-            <li>Drizzle</li>
-        </ul>
-        <p><strong>Frameworks</strong></p>
-        <ul>
-            <li>Next.js (Basics)</li>
-            <li>React (Basics)</li>
-        </ul>
-        <p><strong>Other</strong></p>
-        <ul>
-            <li>Linux (Server Management)</li>
-            <li>AWS (Instance Creation, Security Group Management, Reverse Proxy Setup, Web Server Setup)</li>
-            <li>Domain Management (Records, Domain to Server Pointing Using A Records, Email Routing Using Other Records)</li>
-        </ul>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-red-600 border-b-2 border-gray-200 pb-2 mb-4">Skills</h2>
+        <div class="mb-4">
+            <p class="text-xl font-semibold">Frontend</p>
+            <ul class="list-disc ml-6">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Client-side)</li>
+            </ul>
+        </div>
+        <div class="mb-4">
+            <p class="text-xl font-semibold">Backend</p>
+            <ul class="list-disc ml-6">
+                <li>Node.js (ES6/CommonJS Server-side)</li>
+            </ul>
+        </div>
+        <div class="mb-4">
+            <p class="text-xl font-semibold">Databases</p>
+            <ul class="list-disc ml-6">
+                <li>Relational Databases: PostgreSQL</li>
+                <li>NoSQL Databases: MongoDB</li>
+            </ul>
+        </div>
+        <div class="mb-4">
+            <p class="text-xl font-semibold">ORM</p>
+            <ul class="list-disc ml-6">
+                <li>Drizzle</li>
+            </ul>
+        </div>
+        <div class="mb-4">
+            <p class="text-xl font-semibold">Frameworks</p>
+            <ul class="list-disc ml-6">
+                <li>Next.js (Basics)</li>
+                <li>React (Basics)</li>
+            </ul>
+        </div>
+        <div class="mb-4">
+            <p class="text-xl font-semibold">Other</p>
+            <ul class="list-disc ml-6">
+                <li>Linux (Server Management)</li>
+                <li>AWS (Instance Creation, Security Group Management, Reverse Proxy Setup, Web Server Setup)</li>
+                <li>Domain Management (Records, Domain to Server Pointing Using A Records, Email Routing Using Other Records)</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>Experience</h2>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-green-600 border-b-2 border-gray-200 pb-2 mb-4">Experience</h2>
         <p><strong>Reluvate Technologies</strong> (Full-Stack Intern)<br>
            October 2022 - February 2023</p>
-        <ul>
+        <ul class="list-disc ml-6">
             <li>Developed a financial report dashboard for internal users using Google Cloud Platform, Python, Pandas, ReactJS.</li>
             <li>Built a robust data pipeline using Python and Pandas.</li>
         </ul>
     </div>
 
-    <div class="section">
-        <h2>Projects</h2>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-yellow-600 border-b-2 border-gray-200 pb-2 mb-4">Projects</h2>
         <p><strong>Personal Portfolio Website</strong><br>
            Developed a portfolio website using HTML, CSS, and JavaScript.</p>
         <p><strong>Bootstrap Portfolio Website</strong><br>
            Remade the portfolio website using Tailwind.css.</p>
     </div>
 
-    <div class="section">
-        <h2>Projects in Development</h2>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-purple-600 border-b-2 border-gray-200 pb-2 mb-4">Projects in Development</h2>
         <p><strong>CloudForge Cloud</strong> (Founding & Lead Engineer)<br>
            Developing an AI-powered platform that assists users in creating and managing their workflows.</p>
     </div>
 
-    <div class="section">
-        <h2>Contributions</h2>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-pink-600 border-b-2 border-gray-200 pb-2 mb-4">Contributions</h2>
         <p><strong>School of Computing Club (SOCC) Events SubComm</strong><br>
            Planned and executed events for School of Computing Students in APG Shimla.</p>
     </div>
 
-    <div class="section">
-        <h2>Interests</h2>
-        <ul>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-blue-600 border-b-2 border-gray-200 pb-2 mb-4">Interests</h2>
+        <ul class="list-disc ml-6">
             <li>Artificial Intelligence</li>
             <li>Machine Learning</li>
             <li>Web Development</li>
@@ -129,18 +113,18 @@
         </ul>
     </div>
 
-    <div class="section">
-        <h2>Awards & Achievements</h2>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-teal-600 border-b-2 border-gray-200 pb-2 mb-4">Awards & Achievements</h2>
         <p><strong>SPAI Hackathon</strong><br>
            First Runner Up</p>
     </div>
 
-    <div class="section">
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://parthroyale.github.io/parthroyale/" target="_blank">Portfolio Website</a></li>
-            <li><a href="https://github.com/parthroyale" target="_blank">GitHub Profile</a></li>
-            <li><a href="https://www.youtube.com/@skillforgecloud" target="_blank">YouTube Channel</a></li>
+    <div class="section my-6">
+        <h2 class="text-2xl font-bold text-gray-600 border-b-2 border-gray-200 pb-2 mb-4">Links</h2>
+        <ul class="list-disc ml-6">
+            <li><a href="https://parthroyale.github.io/parthroyale/" target="_blank" class="text-blue-500 hover:underline">Portfolio Website</a></li>
+            <li><a href="https://github.com/parthroyale" target="_blank" class="text-blue-500 hover:underline">GitHub Profile</a></li>
+            <li><a href="https://www.youtube.com/@skillforgecloud" target="_blank" class="text-blue-500 hover:underline">YouTube Channel</a></li>
         </ul>
     </div>
 </body>
