@@ -13,8 +13,13 @@
         h1, h2, h3 {
             color: #333;
         }
-        .contact-info, .education, .skills, .experience, .projects, .projects-development, .contributions, .interests, .awards, .links {
+        .section {
             margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
         }
         a {
             color: #1a73e8;
@@ -23,29 +28,33 @@
         a:hover {
             text-decoration: underline;
         }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>Parth Royal</h1>
     <p><strong>Node.js Backend Developer</strong></p>
-    
-    <div class="contact-info">
+
+    <div class="section">
         <p><strong>Contact:</strong> <a href="mailto:parthroyaal@gmail.com">parthroyaal@gmail.com</a></p>
         <p><strong>GitHub:</strong> <a href="https://github.com/parthroyaal" target="_blank">github.com/parthroyaal</a></p>
     </div>
 
-    <div class="education">
+    <div class="section">
         <h2>Education</h2>
         <p><strong>Alakh Prakash Goyal Shimla University</strong></p>
-        <p><strong>Master of Computer Applications (MCA)</strong></p>
-        <p>2019-2022</p>
-        <p>7.77 CGPA</p>
-        <p><strong>Bachelor of Computer Applications (BCA)</strong></p>
-        <p>2022-2024</p>
-        <p>7.80 CGPA</p>
+        <p><strong>Master of Computer Applications (MCA)</strong><br>
+           2019-2022<br>
+           7.77 CGPA</p>
+        <p><strong>Bachelor of Computer Applications (BCA)</strong><br>
+           2022-2024<br>
+           7.80 CGPA</p>
     </div>
 
-    <div class="skills">
+    <div class="section">
         <h2>Skills</h2>
         <p><strong>Frontend</strong></p>
         <ul>
@@ -79,37 +88,37 @@
         </ul>
     </div>
 
-    <div class="experience">
+    <div class="section">
         <h2>Experience</h2>
-        <p><strong>Reluvate Technologies</strong> (Full-Stack Intern)</p>
-        <p>October 2022 - February 2023</p>
+        <p><strong>Reluvate Technologies</strong> (Full-Stack Intern)<br>
+           October 2022 - February 2023</p>
         <ul>
             <li>Developed a financial report dashboard for internal users using Google Cloud Platform, Python, Pandas, ReactJS.</li>
             <li>Built a robust data pipeline using Python and Pandas.</li>
         </ul>
     </div>
 
-    <div class="projects">
+    <div class="section">
         <h2>Projects</h2>
-        <p><strong>Personal Portfolio Website</strong></p>
-        <p>Developed a portfolio website using HTML, CSS, and JavaScript.</p>
-        <p><strong>Bootstrap Portfolio Website</strong></p>
-        <p>Remade the portfolio website using Tailwind.css.</p>
+        <p><strong>Personal Portfolio Website</strong><br>
+           Developed a portfolio website using HTML, CSS, and JavaScript.</p>
+        <p><strong>Bootstrap Portfolio Website</strong><br>
+           Remade the portfolio website using Tailwind.css.</p>
     </div>
 
-    <div class="projects-development">
+    <div class="section">
         <h2>Projects in Development</h2>
-        <p><strong>CloudForge Cloud</strong> (Founding & Lead Engineer)</p>
-        <p>Developing an AI-powered platform that assists users in creating and managing their workflows.</p>
+        <p><strong>CloudForge Cloud</strong> (Founding & Lead Engineer)<br>
+           Developing an AI-powered platform that assists users in creating and managing their workflows.</p>
     </div>
 
-    <div class="contributions">
+    <div class="section">
         <h2>Contributions</h2>
-        <p><strong>School of Computing Club (SOCC) Events SubComm</strong></p>
-        <p>Planned and executed events for School of Computing Students in APG Shimla.</p>
+        <p><strong>School of Computing Club (SOCC) Events SubComm</strong><br>
+           Planned and executed events for School of Computing Students in APG Shimla.</p>
     </div>
 
-    <div class="interests">
+    <div class="section">
         <h2>Interests</h2>
         <ul>
             <li>Artificial Intelligence</li>
@@ -120,16 +129,19 @@
         </ul>
     </div>
 
-    <div class="awards">
+    <div class="section">
         <h2>Awards & Achievements</h2>
-        <p><strong>SPAI Hackathon</strong> (First Runner Up)</p>
+        <p><strong>SPAI Hackathon</strong><br>
+           First Runner Up</p>
     </div>
 
-    <div class="links">
+    <div class="section">
         <h2>Links</h2>
-        <p><a href="https://parthroyale.github.io/parthroyale/" target="_blank">Portfolio Website</a></p>
-        <p><a href="https://github.com/parthroyale" target="_blank">GitHub Profile</a></p>
-        <p><a href="https://www.youtube.com/@skillforgecloud" target="_blank">YouTube Channel</a></p>
+        <ul>
+            <li><a href="https://parthroyale.github.io/parthroyale/" target="_blank">Portfolio Website</a></li>
+            <li><a href="https://github.com/parthroyale" target="_blank">GitHub Profile</a></li>
+            <li><a href="https://www.youtube.com/@skillforgecloud" target="_blank">YouTube Channel</a></li>
+        </ul>
     </div>
 </body>
 </html>
