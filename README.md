@@ -10,11 +10,11 @@
 
 * **Alakh Prakash Goyal Shimla University**
     * **Master of Computer Applications (MCA)**
-    * 2019-2022
+    * 2022-2024
     * 7.77 CGPA
 
     * **Bachelor of Computer Applications (BCA)**
-    * 2022-2024
+    * 2019-2022
     * 7.80 CGPA
 
 
