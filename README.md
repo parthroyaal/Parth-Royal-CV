@@ -1,6 +1,6 @@
 
 ## Parth Royal
-**Nodejs Backend Developer**
+
 
 **Contact:** parthroyaal@gmail.com 
 **GitHub:** github.com/parthroyaal
