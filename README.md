@@ -4,7 +4,7 @@
 
 **Contact:** parthroyaal@gmail.com 
 **GitHub:** github.com/parth-royal
-
+**Linkedin:** https://www.linkedin.com/in/parth-royal/
 
 **Education**
 
