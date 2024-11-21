@@ -76,7 +76,7 @@
 
 **Awards & Achievements**
 
-* **SPAI Hackathon** (First Runner Up)
+* **Google Play Store Listing certificate ** 
 
 **Links**
 
