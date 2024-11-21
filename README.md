@@ -3,7 +3,7 @@
 
 
 **Contact:** parthroyaal@gmail.com 
-**GitHub:** github.com/parthroyaal
+**GitHub:** github.com/parth-royal
 
 
 **Education**
