@@ -70,7 +70,6 @@
 **Interests**
 
 * Artificial Intelligence
-* Machine Learning
 * Web Development
 * Sports
 * Content Creation
